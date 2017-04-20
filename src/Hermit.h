@@ -8,8 +8,7 @@
 #ifndef SRC_HERMIT_H_
 #define SRC_HERMIT_H_
 
-double getHermitPolynomial(float x,int order){
-
-}
+double hermite_next(int n, double x, double Hn, double Hnm1);
+double hermite_imp(int n, double x);
 
 #endif /* SRC_HERMIT_H_ */
